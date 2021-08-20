@@ -20,9 +20,18 @@ h3 {
   font-family: 'Roboto', sans-serif;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: dimgrey;
+  border-width: 5px;
+  width: 100px;
+}
+
 .top-container {
   background-color: #E8FFFF;
   padding-top: 100px;
+  margin-bottom: 50px;
   position: relative;
 }
 
@@ -30,7 +39,7 @@ h3 {
   position: absolute;
   right: 0;
   top: 0;
-  height: 250px;
+  height: 200px;
 }
 
 .left-cloud {
@@ -41,14 +50,14 @@ h3 {
   transform: scaleX(-1);
 }
 
-.myavatar{
-  height: 200px;
+.myavatar {
+  height: 100px;
 }
 
-.game-img{
-  height: 200px;
+.game-img {
+  height: 100px;
 }
 
-.admin-img{
-  height: 200px;
+.admin-img {
+  height: 100px;
 }

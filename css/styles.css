@@ -9,21 +9,34 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   font-style: oblique;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
 }
 
 h3 {
   font-family: 'Roboto', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Roboto', serif;
+}
+
+p {
+  color: #40514E;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: dimgrey;
+  border-color: grey;
   border-width: 5px;
   width: 100px;
 }
@@ -33,6 +46,44 @@ hr {
   padding-top: 100px;
   margin-bottom: 50px;
   position: relative;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 50px 0;
+  line-height: 2;
+  margin-top: 80px;
+}
+
+.btn {
+  font-size: 20px;
+  background-color: #66BFBF;
+  border: none;
+  border-style: none;
+  border-radius: 20px;
+  padding: 15px 32px;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.footer-link {
+  padding: 10px 10px 10px 10px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 10px;
 }
 
 .right-cloud {
@@ -54,10 +105,14 @@ hr {
   height: 100px;
 }
 
-.game-img {
-  height: 100px;
+.admin-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
-.admin-img {
-  height: 100px;
+.game-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
 }

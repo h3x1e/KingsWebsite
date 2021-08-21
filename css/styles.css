@@ -10,6 +10,7 @@ h1 {
   font-size: 5.625rem;
   font-style: oblique;
   color: #66BFBF;
+  text-shadow: 2px 2px #000000;
 }
 
 h2 {
@@ -106,13 +107,15 @@ hr {
 }
 
 .admin-img {
-  width: 25%;
+  width: 150px;
+  height: 150px;
   float: left;
   margin-right: 30px;
 }
 
 .game-img {
-  width: 25%;
+  width: 150px;
+  height: 150px;
   float: right;
   margin-left: 30px;
 }
